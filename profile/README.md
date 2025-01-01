@@ -17,9 +17,13 @@ git clone git@github.com:openmrs/openmrs-distro-referenceapplication.git
 
 ## Configurações iniciais
 
+Verifique os [requisitos mínimos](https://openmrs.atlassian.net/wiki/spaces/docs/pages/89817092/Requirements) recomendados da máquina em 
+
 As configurações dos módulos estão disponíveis em `distro/configuration/` no qual cada pasta é um domínio com seus próprios recursos configuráveis. Todos os arquivos que contém `-core_demo` são dados de demosntração e você pode querer editá-los, por exemplo em `distro/configuration/locations/locations-core_demo.csv` para não ficar mostrando vários locais de atendimento que não existem em sua realidade.
 
 As configurações de frontend podem ser encontradas em `forntend/config-core_demo.json`
+
+*A parte mais desafiadora* do processo é o passo 6 da [documentação de implementação](https://openmrs.atlassian.net/wiki/spaces/docs/pages/25467578/OpenMRS+from+Scratch#Implementation-Process)
 
 ## Rodar instalação
 
